@@ -1,4 +1,3 @@
-# requested through the portal, don't hand-edit - raise a new request instead
 apiVersion: platform.example.org/v1alpha1
 kind: ResourceGroup
 metadata:

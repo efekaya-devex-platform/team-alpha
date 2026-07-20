@@ -1,8 +1,5 @@
 # team-alpha
 
-What team-alpha has asked the platform for. Every file here arrived as a pull
-request from the portal — nobody writes these by hand.
-
 The point of this repo existing separately from
 [idp-gitops](https://github.com/efekaya-devops/idp-gitops): the platform team
 owns the cluster, ArgoCD, monitoring and the blueprints; a product team owns
@@ -34,6 +31,4 @@ doesn't need to be.
 ## the terraform is not applied
 
 `claims/` is live — ArgoCD reconciles it into the cluster. `infra/` is checked
-and reviewed but nothing runs `terraform apply`. That's the honest gap between
-this and a real setup; wiring an apply step (Atlantis, TFC, a CI job with
-credentials) is what closes it.
+and reviewed but nothing runs `terraform apply`.
